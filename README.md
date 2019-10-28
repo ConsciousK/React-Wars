@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+    ----ReactJS Solves the problem of constantly having to load data to a client side browser everytime an element or component updates its data or state. ReactJS will dynamically only update a singular component when it needs to be updated.
+
 - [ ] What does it mean to _think_ in react?
+
+    ----Thinking in React means to think in components and state, and how state data will affect components.
 
 - [ ] Describe state.
 
+    ----State is a temporary store of data that React components can render and draw upon said data. Similar to CPU 'cache'
+
 - [ ] Describe props.
 
+    ----Props allow you to pass state data between components.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+    ----Side effects are an unwanted effect of state changing or a component re-rendering. You sync effects in React via the 'useEffect' function, and can also tie a dependency array to a useEffect function, so the function only fires when that particular dependency changes.
 
 ## Project Set Up
 
